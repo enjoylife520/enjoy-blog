@@ -4,3 +4,6 @@
 [submodule "themes/Tranquilpeak"]
 	path = themes/Tranquilpeak
 	url = https://github.com/enjoylife520/hugo-tranquilpeak-theme.git
+[submodule "themes/maupassant"]
+	path = themes/maupassant
+	url = https://github.com/rujews/maupassant-hugo
