@@ -1,3 +1,6 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/enjoylife520/enjoylife520.github.io.git
+[submodule "themes/Tranquilpeak"]
+	path = themes/Tranquilpeak
+	url = https://github.com/enjoylife520/hugo-tranquilpeak-theme.git
