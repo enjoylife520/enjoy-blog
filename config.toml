@@ -1,7 +1,9 @@
 baseURL = "http://www.enjoyread.club"
-languageCode = "zh-CN"
+languageCode = "zh-cn"
 title = "享读"
 theme = "maupassant"
+preserveTaxonomyNames = true
+disablePathToLower = true
 
 [author]
   name = "享读组成员"
@@ -9,8 +11,7 @@ theme = "maupassant"
 [params]
   author = "享读"
   subtitle = "每周共读一本好书"
-  #keywords = "golang,go语言,go语言笔记,飞雪无情,java,android,博客,项目管理,python,软件架构,公众号,小程序"
-  #description = "专注于IT互联网，包括但不限于Go语言(golang)、Java、Android、Python、项目管理、抖音分析、软件架构等"
+  busuanzi = true 
 
 [menu]
 
@@ -31,3 +32,12 @@ theme = "maupassant"
     name = "关于"
     url = "/about/"
     weight = 4
+
+[permalinks]
+  post = "/post/:filename/"
+
+[params.utteranc]
+    enable = true
+    repo = "enjoylife520/blog-comment"    # 存储评论的Repo，格式为 owner/repo
+    issueTerm = "pathname"  #表示你选择以那种方式让github issue的评论和你的文章关联。
+    theme = "github-light" # 样式主题，有github-light和github-dark两种
